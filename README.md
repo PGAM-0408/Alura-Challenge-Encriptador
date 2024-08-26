@@ -6,7 +6,7 @@
 
 ![Vista inicial de la pagina](https://github.com/user-attachments/assets/a72b1337-2e5b-4fc9-966a-986690a31095)
 
-##Índice
+## Índice
 - [Descripción](#descripción)
 - [Instalación](#instalación)
 - [Tecnologías](#tecnologías)
@@ -62,7 +62,7 @@ La página web incluye:
 
 ![seccion donde se muestra el texto despues de ser procesado](https://github.com/user-attachments/assets/ec50b9b7-39e3-42f8-a799-3e44754c31f0)
 
-##Instalación
+## Instalación
 
 Instrucciones para instalar y configurar el proyecto en una máquina local.
 
@@ -71,7 +71,7 @@ Instrucciones para instalar y configurar el proyecto en una máquina local.
 git clone https://github.com/tuusuario/tu-proyecto.git](https://github.com/PGAM-0408/Alura-Challenge-Encriptador.git)
 ```
 
-##Tecnologías
+## Tecnologías
 
 Lista de tecnologías y herramientas que se utilizaron en el proyecto:
 
