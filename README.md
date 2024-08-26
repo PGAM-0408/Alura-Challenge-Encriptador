@@ -1,4 +1,4 @@
-<h1 align="center"> # Encriptador de texto </h1>
+<h1 align="center"> Encriptador de texto </h1>
 
    <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20FINALIZADO-green">
@@ -82,6 +82,6 @@ Lista de tecnologías y herramientas que se utilizaron en el proyecto:
 
 ##Personas-Desarrolladores del Proyecto
 
-| [<img src="https://github.com/user-attachments/assets/7425835b-23e2-4464-85dc-17077779addf" width=115><br><sub>Paulina Alva</sub>]![octocat-1724698997442]
+| [<img src="https://github.com/user-attachments/assets/7425835b-23e2-4464-85dc-17077779addf" width=115><br><sub>Paulina Alva</sub>]
 
 
