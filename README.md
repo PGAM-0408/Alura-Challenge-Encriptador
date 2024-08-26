@@ -1,7 +1,7 @@
 <h1 align="center"> Encriptador de texto </h1>
 
    <p align="left">
-   <img src="https://img.shields.io/badge/STATUS-EN%20FINALIZADO-green">
+   <img src="https://img.shields.io/badge/STATUS%20FINALIZADO-green">
    </p>
 
 ![Vista inicial de la pagina](https://github.com/user-attachments/assets/a72b1337-2e5b-4fc9-966a-986690a31095)
@@ -62,7 +62,7 @@ La página web incluye:
 
 ![seccion donde se muestra el texto despues de ser procesado](https://github.com/user-attachments/assets/ec50b9b7-39e3-42f8-a799-3e44754c31f0)
 
-##instalación
+##Instalación
 
 Instrucciones para instalar y configurar el proyecto en una máquina local.
 
