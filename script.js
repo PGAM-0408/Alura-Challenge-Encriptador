@@ -4,12 +4,20 @@
  Creador: Paulina Alva
 
  Fecha de creacion: 15/07/2024
- Fecha de ultima actualizacion: 17/07/2024
+ Fecha de ultima actualizacion: 26/08/2024
 
 */
-
+function eliminarAcentos(texto) {
+  return texto
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9 ]/g, "");
+}
 function encriptarTexto() {
   let texto = document.getElementById("recibe-texto-input").value;
+  // Eliminar acentos y caracteres especiales
+  texto = eliminarAcentos(texto);
+
   let textoFinal = "";
 
   texto = texto.toLowerCase();
@@ -83,13 +91,16 @@ function copiarTexto() {
   copiartexto();
 }
 
-
 // Agregar el event listener al botón después de cargar el DOM
-document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("boton-encriptar").addEventListener("click", encriptarTexto);
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .getElementById("boton-encriptar")
+    .addEventListener("click", encriptarTexto);
 });
 
 // Agregar el event listener al botón después de cargar el DOM
-document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("boton-desencriptar").addEventListener("click", desencriptarTexto);
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .getElementById("boton-desencriptar")
+    .addEventListener("click", desencriptarTexto);
 });
