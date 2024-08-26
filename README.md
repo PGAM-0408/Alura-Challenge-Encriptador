@@ -10,7 +10,6 @@
 - [Descripción](#descripción)
 - [Instalación](#instalación)
 - [Tecnologías](#tecnologías)
-- [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
 ## Descripción
 
@@ -80,9 +79,5 @@ Lista de tecnologías y herramientas que se utilizaron en el proyecto:
 - **JavaScript**: Lógica de encriptación y desencriptación, así como la interacción con el usuario.
 - **CSS**: Estilizado y diseño visual de la interfaz de usuario.
 
-##Personas-Desarrolladores del Proyecto
-
-[<img src="https://github.com/user-attachments/assets/7425835b-23e2-4464-85dc-17077779addf" width=115>]
-<br><sub>Paulina Alva</sub>
 
 
