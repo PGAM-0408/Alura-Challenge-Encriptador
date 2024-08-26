@@ -1,0 +1,48 @@
+<!-- 
+ Index del proyecto "Encriptador de texto"
+
+ Fecha de creacion: 15/07/2024
+ Fecha de ultima actualizacion: 17/07/2024
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="img/Logo.png" alt="Logo de Alura" class="logo">
+    <h1>Encriptador</h1>
+  </header>
+
+  <main>
+    <section class="recibir-texto">
+      <textarea type="text" class="recibe-texto-input" id="recibe-texto-input" placeholder="Ingrese el texto aquí" required></textarea>
+      <img src="img/Frame 1.png">
+      <div class="botones">
+        <button id="boton-encriptar" class="boton-encriptar" onclick="encriptarTexto()">Encriptar</button>
+        <button class="boton-desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+      </div>
+    </section>
+    <div class="mostrar-texto">
+      <img src="img/Muñeco.png" alt="Muñeco" class="imagen-muneco" id="imagen-muneco">
+      <h2 id="mostrar-texto-h2">Ningún mensaje fue encontrado</h2>
+      <p id="mostrar-texto-p" class="mostrar-texto-p">Ingresa el texto que desees encriptar o desencriptar</p>
+      <button class="copiar-texto" onclick="copiarTexto()">Copiar</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <footer></footer>
+</body>
+
+</html>
